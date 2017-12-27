@@ -1,0 +1,12 @@
+<!--pages/huodongxq/huodongxq.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="about_header">活动详情</view>
+<!--  -->
+<view class="huodongxq">
+  <view class="c_b-cont main-cont">
+    <template is="wxParse" data="{{wxParseData:article1.nodes}}"/>
+  </view>
+ 
+  <view class="product_te">{{list.name}}</view>
+  <view class="fr">{{list.release_time}}</view>
+</view>

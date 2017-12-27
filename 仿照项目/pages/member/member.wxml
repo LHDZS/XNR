@@ -1,0 +1,36 @@
+<!--pages/member/member.wxml-->
+<view class="class_img">
+  <!-- <image class="second-img" mode="scaleToFill" src="/image/u24.png"></image> -->
+  <image class="second-img userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+</view>
+<view class="class_name">
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+<view class="record">
+  <text>我的订单</text>
+</view>
+<!--  -->
+<view wx:for="{{list}}" data-id="{{index}}" class="list_order">
+  <view class="order">
+    <view class="order_img fl">
+      <image mode="widthFix" style="height:100%;" src="https://yg.xiaoniren.cn{{item.image}}"></image>
+    </view>
+    <view class="order_img_cen fl">
+      <view class="order_img_tie fl">{{item.name}} {{item.s_name==null?'':item.s_name!=''?item.s_name:''}}{{item.parameter==null?'':item.parameter!=''?item.parameter:''}}</view>
+      <view class="order_img_tie fr"><text class="price">¥{{item.market_price}}</text><text>\n¥{{item.price}}</text><text>\nx{{item.quantity}}</text></view>
+      <view class="order_img_tie fr"></view>
+      <view style="clear: both"></view>
+      <view class="order_img_tie" style="margin-top:10px;">共{{item.quantity}}件商品 合计:{{item.total_amount}}(含运费:{{item.delivery_costs}})</view>
+    </view>
+  </view>
+  <view class="xian"></view>
+  <view class="examine_ke">
+    <navigator url="/pages/particulars/particulars?Projectid={{item.id}}" hover-class="navigator-hover"><text class="examine">查看详情</text></navigator>  
+    
+    <navigator class="hi_dea {{item.status==1?'hi_de':'bl_ocl'&&item.status==4?'hi_de':'bl_ocl'}}"  url="/pages/logistics/logistics?status={{item.status}}&Projectid_id={{item.id}}"><text class="examine">查看物流</text></navigator>
+    
+    <view class="zhuangtai">{{item.status==1?'待发货':item.status==2?'已发货':item.status==3?'已完成':item.status==4?'未支付':''}}</view>
+  </view>
+</view>
+<!--  -->
+<view bindtap="xiaoniren" type="default" class="niren">小泥人技术支持</view>

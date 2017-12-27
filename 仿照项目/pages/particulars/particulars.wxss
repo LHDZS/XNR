@@ -1,0 +1,7 @@
+/* pages/particulars/particulars.wxss */
+.particulars{width: 100%;height: auto;}
+.par{width: 100%;height: auto;line-height: 30px;text-align: center;font-size: 18px;
+background: #18C08F;color: #fff}
+.par_list{line-height: 30px;font-size: 14px;color: #555;width: 96%;margin: 0 auto;}
+image{width: 100%;}
+.xian{width: 100%;height: auto;border-top:2px solid #eee; }

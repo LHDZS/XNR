@@ -1,0 +1,49 @@
+<!--pages/place/place.wxml-->
+<view class="about_header">确认订单</view>
+
+<!--  -->
+<view class="product">
+  <image class="hezuo-img" mode="widthFix" style="height:100%;" src="https://yg.xiaoniren.cn{{list.image}}"></image>
+  <view class="product_xt"><text>{{list.name}}</text></view>
+  <view class="product_a"><text>市场价：¥ {{list.market_price}}</text></view>
+  <view class="product_b"><text>单价：¥ {{list.price}}</text></view>
+</view>
+<!--  -->
+  <view class="product_po">
+    <view class="fl">规格参数：\n</view>
+    <view class="fl" wx:for="{{listl}}"  >
+      <text bindtap="clickNum" class="{{_num == index ?'add_citying':'add_city'}}" data-num="{{index}}"  data-id="{{item.id}}"> {{item.name}}{{item.parameter}}</text>
+    </view>
+  </view>
+<!--  -->
+<view class="product_quantity">
+  <view class="fl quantity">购买数量:</view>
+  <view class="fl quan">
+    <image class="purchase_ig fl {{minusStatus}}" bindtap="bindMinus" mode="scaleToFill" src="/image/u993.png"></image>
+    <input class="purchase_li fl" type="number" disabled="true" bindchange="bindManual" value="{{num}}" />  
+    <image class="purchase_ig fl normal" bindtap="bindPlus" mode="scaleToFill" src="/image/u996.png"></image> 
+  </view>
+</view>
+<!--  -->
+<!--  -->
+<view class="address {{open?'display_show':'display_none'}}" bindtap="addressTap" ><image class="dizhi" src="/image/dizhi.png"></image>请您选择收货地址</view>
+<view class="delivery" bindtap="delivery">
+  <view class="delivery_name"><text>{{xinxi.userName}}</text><text>{{xinxi.telNumber}}</text></view>
+  <view class="delivery_name"><text>{{xinxi.provinceName}}</text><text>{{xinxi.cityName}}</text><text>{{xinxi.countyName}}</text><text>{{xinxi.detailInfo}}</text></view>
+</view>
+<!--  -->
+<view class="fr account">
+  <view class="">运费：<text>{{list.delivery_costs==null?'0':list.delivery_costs}}</text></view>
+  <view class="">合计：<text>{{zongjia}}</text></view>
+</view>
+<!--  -->
+<view class="product_purchase">
+  <view class="purchase fl" type="default" bindtap="calling">
+      <view class=""><image class="purchase_img" mode="scaleToFill" src="/image/u853.png"></image></view>
+      <view class="">联系客服</view>
+  </view>
+  <view class="purchase_pu fr" bindtap="xiadan">立即下单</view>
+</view>
+
+
+ 

@@ -1,0 +1,32 @@
+<!--pages/product/product.wxml-->
+ <import src="../../wxParse/wxParse.wxml"/> 
+<view class="about_header">商品详情</view>
+<!--  -->
+<view class="product">
+  <image class="hezuo-img" mode="widthFix" style="height:100%;" src="https://yg.xiaoniren.cn{{list.image}}"></image>
+  <view class="product_xt"><text>{{list.name}}</text></view>
+  <view class="product_a"><text>市场价：¥ {{list.market_price}}</text></view>
+  <view class="product_b"><text>单价：¥ {{list.price}}</text></view>
+  <view class="product_c"><text>月销: {{list.sales_count?list.sales_count:0}} </text><text>库存：{{list.stock}} </text></view>
+  <view class="product_x"></view>
+  <view class="product_po">商品介绍：\n
+    <view class="c_b-cont main-cont">
+      <template is="wxParse" data="{{wxParseData:article1.nodes}}"/>
+    </view>  
+  </view>
+  <!-- <view class="product_po">规格参数：\n
+    <view wx:for="{{listl}}" class="">
+      <text>{{item.name}}</text><text>{{item.parameter}}</text>
+    </view>
+  </view> -->
+</view>
+<!--  -->
+<view class="product_purchase">
+  <view class="purchase fl" type="default" bindtap="calling">
+      <view class=""><image class="purchase_img" mode="scaleToFill" src="/image/u853.png"></image></view>
+      <view  class="">联系客服</view>
+  </view>
+  <navigator url="../place/place?Projectid={{Projectid}}">
+    <view class="purchase_pu fr">立即购买</view>
+  </navigator>  
+</view>

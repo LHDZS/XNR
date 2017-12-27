@@ -1,0 +1,14 @@
+<!--pages/dongtaixq/dongtaixq.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="about_header">动态详情</view>
+<!--  -->
+<view class="dynamic">
+  <view class="">{{list.title}}</view>
+  <view class="dynamicer">作者：野谷集团 {{list.release_time}}</view>
+</view>
+
+<view class="classnamemain">
+<view class="c_b-cont main-cont">
+    <template is="wxParse" data="{{wxParseData:article1.nodes}}"/>
+</view>
+</view>

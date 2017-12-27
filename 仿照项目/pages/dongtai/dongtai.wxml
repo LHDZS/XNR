@@ -1,0 +1,14 @@
+<!--pages/dongtai/dongtai.wxml-->
+<view class="about_header">公司动态</view>
+<!--  -->
+<!--  -->
+<view wx:for="{{list}}" class="dongtai_list">
+  <view class="dongtai_lista">
+    <navigator class="" url="/pages/dongtaixq/dongtaixq?Projectid={{item.id}}" hover-class="navigator-hover">
+      <image class="product_img" mode="widthFix" style="height:100%;" src="https://yg.xiaoniren.cn{{item.image}}"></image>
+      <view class="product_te">{{item.title}}</view>
+      <view class="fr">{{item.release_time}}</view>
+    </navigator>  
+  </view>
+</view>
+

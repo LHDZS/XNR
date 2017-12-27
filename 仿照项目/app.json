@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",    
+    "pages/member/member",
+    "pages/logistics/logistics",    
+    "pages/particulars/particulars",
+    "pages/about/about",
+    "pages/chanpin/chanpin",
+    "pages/huodong/huodong",
+    "pages/dongtaixq/dongtaixq",
+    "pages/dongtai/dongtai",
+    "pages/place/place",
+    "pages/huodongxq/huodongxq",    
+    "pages/product/product",
+    "pages/commodity/commodity",
+    "pages/vr/vr",
+    "pages/lihongda/lihongda"
+      ],
+  "window":{
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "野谷生态科技园",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "image/index1.png",
+        "iconPath": "image/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/yonghu1.png",
+        "iconPath": "image/yonghu.png",
+        "pagePath": "pages/member/member",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

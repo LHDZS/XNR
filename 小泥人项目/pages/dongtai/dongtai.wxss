@@ -1,0 +1,8 @@
+/* pages/dongtai/dongtai.wxss */
+.about_header{width: 100%;height: auto;line-height: 40px;text-align: center;font-size: 18px;
+background: #339966;color: #fff;}
+.product_img{width: 100%;}
+.product_te{width: 98%;margin: 0 auto;font-size: 16px;}
+.fr{margin-right: 10px;}
+.dongtai_list{width: 100%;height: auto;overflow: hidden;border-bottom:10px solid #f2f2f2;margin-top: 10px;}
+.dongtai_lista{width: 96%;height: auto;margin: 0 auto;}

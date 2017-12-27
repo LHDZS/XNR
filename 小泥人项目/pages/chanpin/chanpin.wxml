@@ -1,0 +1,117 @@
+<!--pages/chanpin/chanpin.wxml-->
+<view class="about_header">产品介绍</view>
+<!--  -->
+<view class="course">
+   <view class="courselist">
+    <text>1.富硒鸽产品</text>
+    <view class="">作为中国北方最大的肉鸽养殖企业，中国唯一硒鸽养殖基地，野谷拥有合作研发的最先进的肉鸽自动化加工线、创建了首家模拟露天养殖及自动温控和自动排风系统，同时率先实现了全场自动化喂料及饮水。将自主研发的有机硒产品，添加到鸽子的日粮中，使鸽肉中硒含量均达到国家富硒食品标准，这便是野谷硒鸽与其它肉鸽最大的不同。富硒鸽因其富含有机硒（含量为0.333mg/kg），所以，其营养价值更高，可促进脑细胞的新陈代谢，缓解脑疲劳；营养毛乳头和毛囊，能生发和防止脱发；对癌细胞的增殖有抑制作用；促进伤口愈合、调节人体血糖、延缓皮肤衰老的作用更为明显。</view>
+  </view>
+
+  <view class="courselist">
+    <text>(1)乳鸽</text>
+    <view class="">鸽--又称“白凤”；素有“一鸽胜九鸡”之美誉。优帝鸽业的富硒乳鸽，配以自主研发的富硒饲料精心喂养，养鸽龄均在22/25天，其肉质细而嫩，适宜烧、卤、烧烤等多种吃法。</view>
+    <image src="http://weapp-static.xiaoniren.cn/yegu/1.1.jpg" class="course_img" mode="widthFix" style="height:100%;"></image>
+    <image src="http://weapp-static.xiaoniren.cn/yegu/1.2.jpg" class="course_img" mode="widthFix" style="height:100%;"></image>
+  </view>
+
+  <view class="courselist">
+    <text>(2)鸽王</text>
+    <view class="">鸽--又称“白凤”；素有“一鸽胜九鸡”之美誉。优帝鸽业的富硒鸽王，配以自主研发的富硒饲料精心喂养，鸽龄均在25/30天，其肉质厚而实，适宜酱烧、卤制、烧烤、煲汤等多种吃法。</view>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/2.1.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/2.2.jpg"></image>
+  </view>
+
+  <view class="courselist">
+    <text>(3)汤鸽</text>
+    <view class="">鸽--又称“白凤”；素有“一鸽胜九鸡”之美誉。优帝鸽业的富硒汤鸽，配以自主研发的富硒饲料精心喂养，鸽龄均在60天以上，其骨壮肉精，是煲汤滋补之佳品。</view>
+    <image class="course_img" mode="widthFix" style="height:100%;"  src="http://weapp-static.xiaoniren.cn/yegu/3.1.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;"  src="http://weapp-static.xiaoniren.cn/yegu/3.2.jpg"></image>
+  </view>
+
+   <view class="courselist">
+    <text>(4)老鸽</text>
+    <view class="">鸽--又称“白凤”；素有“一鸽胜九鸡”之美誉。优帝鸽业的富硒老鸽，配以自主研发的富硒饲料精心喂养，鸽龄均在3年以上，因其鸽龄超长，所以其骨壮而实、肉厚而精，营养最为丰富，是煲汤滋补之上上品。</view>
+        <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/4.1.jpg"></image>
+        <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/4.2.jpg"></image>
+  </view>
+
+  <view class="courselist">
+    <text>(5)富硒秘制烧鸽</text>
+    <view class="">选用优质富硒乳鸽，通过秘制方法，结合现代工艺精制而成。野谷秘制烧鸽，选料考究，精心制作。风味独特，鲜嫩可口，骨里透香。宴饮馈赠，堪称一绝。</view>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/5.1.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/5.2.jpg"></image>
+  </view>
+
+  <view class="courselist">
+    <text>(6)富硒参杞鸽</text>
+    <view class="">富硒参杞鸽，健脾益气，升阳摄血。 促进人体机能，病后体弱、久病体衰、倦怠乏力、补血、补元气、神疲形瘦或产后欠补、气血不足等症。蛋白质含量丰富，易于人体消化吸收。多喝此汤全身器官活力充沛，新陈代谢通畅。</view>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/6.0.jpg"></image>
+  </view>
+
+  <!--  -->
+  <view class="courselist">
+    <text>2.富硒鸽蛋</text>
+    <view class=""> 富硒鸽蛋被誉为动物之人参。鸽蛋含有氨基酸和人体必需的8种各类维生素，是高蛋白低脂肪的珍品。鸽蛋能够增强人体的免疫和造血功能，对手术后的伤口愈合，产妇产后的恢复和调理，儿童的发育成长更具功效。有改善皮肤细胞活性、皮肤中弹力纤维性。富硒鸽蛋含有优质的蛋白质、磷脂、铁、钙、维生素A、维生素B1、维生素D等营养成分。</view>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/02.1.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/02.2.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/02.3.jpg"></image>
+
+  </view>
+  <!--  -->
+  <view class="courselist">
+    <text>3.富硒有机蔬菜</text>
+    <view class=""> 野谷健康产业（集团）有限公司的有机蔬菜，生产过程中严格遵循有机食品的生产技术标准，即在种植过程中，我们只使用自行生产的富硒鸽粪，将鸽粪加入艾蒿、苦楝子等8种中草药及微生物菌进行发酵和无害化处理，再加入集团生产的有机硒，制造有机富硒肥料。用这种富硒肥料种植粮食，蔬菜及水果，真正做到无化肥，无激素，无农药，使公司生产的粮食及果蔬产品不但安全，营养，更具有特殊的香味和口感。
+      有机农业是遵循自然规律和生态学原理，协调种植业和养殖业平衡，采用一系列可持续发展的农业技术，促进生物多样性强调“与自然秩序相和谐”。有机农业是解决食品安全问题的良好途径之一。自20世纪20年代欧洲国家首先提出来，经过几十年的实践与发展，逐步受到各国政府的重视，有机食品已成为西方发达国家人们消费的时尚。我国1994年成立“国家环保总局有机食品发展中心”，十多年来有机农业发展迅速。有机农业的原则吸取了几千年来传统农业的精华，结合蔬菜作物自身的特点，强调因地因时因物制宜的耕作原则，在整个生产过程中禁止使用人工合成的化肥、农药、激素，以及转基因产物，采用天然材料和与环境友好的农作方式，恢复园艺生产系统物质能量的自然循环与平衡，通过作物种类品种的选择、轮作、间作套种，休闲养地水资源管理与栽培方式的配套应用，创造人类万物共享的生态环境。
+      因此，种植有机蔬菜需要更多劳力和更密集的技术，精耕细作，用功量大，产量低，但有机蔬菜远离污染，品质高，具有自然本色。目前有机蔬菜生产基地很少，产品不多，有机蔬菜已成为礼品菜需求的时尚。
+    </view>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/03.1.jpg"></image>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/03.2.jpg"></image>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/03.3.jpg"></image>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/03.4.jpg"></image>
+  </view>
+
+  <view class="courselist">
+    <text>4.富硒有机草莓</text>
+    <view class=""> 草莓富含氨基酸、果糖、蔗糖、葡萄糖、柠檬酸、苹果酸、果胶、胡萝卜素、维生素B1、B2、烟酸及矿物质钙、镁、磷、钾、铁等，这些营养素对生长发育有很好的促进作用，对老人、儿童大有裨益。国外学者研究发现，草莓中的有效成分，可抑制癌肿的生长。每百克草莓含维生素C50-100毫克，比苹果、葡萄高10倍以上。科学研究业已证实，维生素C能消除细胞间的松弛与紧张状态，使脑细胞结构坚固，皮肤细腻有弹性，对脑和智力发育有重要影响。饭后吃一些草莓，可分解食物脂肪，有利消化。
+    </view>
+    <view class="">我们野谷健康产业（集团）有限公司的富硒草莓的培育，只用通过微生物添加，鸽粪发酵制造的有机富硒肥料，并且有着不一般的生活品质：“吃”的是有机基质，“住”的是阳光房，“听”的是蜜蜂鸣。能享受到这种高品质生活，俨然是草莓中的“小资”一族。据北京市农业局工作人员介绍，野谷集团的生产园是市农业局去年启动创建的30个生态农业标准化核心示范园之一，该园充分发挥了生态循环作用，将鸽粪猪粪加入艾蒿、苦楝子等八种中草药及生物菌，进行发酵和无害化处理，制造有机肥料，以增加肥料中的矿物质及碳元素，净化并平衡土壤中的氮磷钾，消除土壤中的病虫害，再加入集团生产的有机硒，用这种富硒肥料种植蔬菜及水果，同时让植物秸秆和动物废弃物进入沼气池，并将沼渣、沼液再返还土壤，提高土壤的有机质含量，减少病虫害。真正做到无化肥、无激素、无农药，生产的果蔬产品安全、营养，具有特殊的香甜口感。</view>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/04.1.jpg"></image>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/04.2.jpg"></image>
+  </view>
+
+  <view class="courselist">
+    <text>5.富硒有机杂粮</text>
+    <view class=""> 野谷园的健康五谷杂粮，全部使用优帝硒鸽鸽粪发酵后作为有机肥料种植，用防虫网防虫，用粘虫板、杀虫灯、色板治虫，全程不使用农药及化学肥料。再加上先进的物联网技术的应用，使野谷园的杂粮可以在适宜的温湿度下健康成长，避免了环境因素造成的病害传播，更实现了有机杂粮种植过程的可追溯。野谷园的健康杂粮颗粒饱满，芳香浓郁，品质更放心。有机杂粮中含有大量纤维素、B族维生素，可以抑制胆固醇的吸收，减少血脂，促进肠蠕动，预防便秘。但是，过多摄入粗粮会使胃肠道“不堪重负”。吃太多有机杂粮意味着一次性摄入大量不溶性膳食纤维，容易加重胃排空延迟，可造成腹胀、消化不良等问题。特别是儿童和老人等肠功能较弱者，在进食大量有机杂粮后，会出现上腹不适、肚胀、食欲降低等症状。一些患有消化系统疾病的人群，在进食大量有机杂粮后甚至会出现溃疡处出血。除此之外，过量食用有机杂粮还会影响人体对蛋白质、无机盐及某些微量元素的吸收。所以，有机杂粮吃到七八分饱最适宜，并且不能顿顿都吃。
+    </view>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/05.1.jpg"></image>
+      <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/05.2.jpg"></image>
+  </view>
+
+  <view class="courselist">
+    <text>6.富硒有机黑猪肉</text>
+    <view class="">野谷集团在2012年开始试验养殖北京黑猪。秉承着公司的传统理念，在养殖黑猪方面，我们也不断的更改创新，以达到让消费者能吃到绿色、卫生、健康营养的食物目的。</view>
+    <view class="">我们在饲料选择的方面也是用尽心思，回收利用鸽子的落地粮作为主要饲料，加入其他有机粮食作物，并且加入集团独有的硒元素，让猪肉吃起来异常鲜美，以瘦肉为主，而且并不是大规模生产，所以每一头黑猪都带着我们全部的诚意和心血。</view>
+    <view class="">黑猪的养殖环境也是非常挑剔的，猪场要建在远离人群、地势高燥、背风向阳、排水良好的区域。产区的功能划分明确。猪舍大小要根据饲养规模而定，房屋高度－般要在2.5米以上，猪舍前后要有适宜的窗户，保证采光和通风。夏季适当降低饲养密度，冬季可适当提高饲养密度。猪栏围墙高度为0.8—1m，栏内要设置食槽和饮水装置。猪舍的水泥地面要有－定的坡度，猪舍外面要设排污渠，猪舍外还可以设立与舍内相通的露天栏。</view>
+    <view class="">公司的选取的黑猪都是北京黑猪，能让您感受到原始生活中，找到原汁原味黑猪肉。黑猪繁殖率高、耐粗食、抗病能カ特别强，由于它特殊的生长特性使得它的肉质是十分的鲜嫩，不论是做菜还是加エ火腿都是上好的食材。</view>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/06.1.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/06.2.jpg"></image>
+    <image class="course_img" mode="widthFix" style="height:100%;" src="http://weapp-static.xiaoniren.cn/yegu/06.3.jpg"></image>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <view class="courselist">
+    <text>相关证书\n</text>
+    <view class=""><image class="hezuo-img fl" mode="scaleToFill" src="/image/u245.png"></image> "2015年合作的肉鸽供应，认真负责，安全卫生，受到消费者一致好评"</view>
+  </view> -->
+</view>

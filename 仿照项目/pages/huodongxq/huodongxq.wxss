@@ -1,0 +1,8 @@
+/* pages/huodongxq/huodongxq.wxss */
+@import "../../wxParse/wxParse.wxss";
+.about_header{width: 100%;height: auto;line-height: 40px;text-align: center;font-size: 18px;
+background: #339966;color: #fff;}
+.product_img{width: 100%;}
+.product_te{width: 98%;margin: 0 auto;font-size: 18px;}
+.fr{margin-right: 10px;}
+.huodongxq{width: 96%;height: auto;margin: 0 auto;}

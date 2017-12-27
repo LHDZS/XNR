@@ -1,0 +1,22 @@
+ <import src="../../wxParse/wxParse.wxml"/> 
+ <view class='llll'>
+ <view class="product">
+  <image class="hezuo-img" mode="widthFix" style="height:100%;" src="https://yg.xiaoniren.cn{{list.image}}"></image>
+  <view class="product_xt"><text>{{list.name}}</text></view>
+  <view class="product_a"><text>市场价：¥ {{list.market_price}}</text></view>
+  <view class="product_b"><text>单价：¥ {{list.price}}</text></view>
+  <view class="product_c" wx:if="list.sales_count = list.sales_count ? list.sales_count:0"><text>月销: {{list.sales_count?list.sales_count:0}} </text><text>库存：{{list.stock}} </text></view>
+  <view class="product_x"></view>
+  <view class="product_po">商品介绍：\n
+    <view class="c_b-cont main-cont">
+      <template is="wxParse" data="{{wxParseData:article1.nodes}}"/>
+    </view>  
+  </view>
+  <!-- <view class="product_po">规格参数：\n
+    <view wx:for="{{listl}}" class="">
+      <text>{{item.name}}</text><text>{{item.parameter}}</text>
+    </view>
+  </view> -->
+</view>
+ </view>
+ 

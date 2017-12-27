@@ -1,0 +1,9 @@
+<!--pages/commodity/commodity.wxml-->
+<view class="commodity_top"><text>所有商品</text></view>
+    <view wx:for="{{list}}" class="commoditylist" data-id="{{index}}">
+      <navigator class="" url="/pages/product/product?Projectid={{item.id}}" hover-class="navigator-hover">
+        <image class="second-img"  style="height:154px;" src="https://yg.xiaoniren.cn{{item.image}}"></image>          
+        <text>{{item.name}}\n</text>
+        <view class="fl price">¥ {{item.price}}</view><view class="fr goumai">立即购买</view>
+      </navigator>
+    </view> 

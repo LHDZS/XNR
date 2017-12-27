@@ -1,0 +1,21 @@
+/* pages/commodity/commodity.wxss */
+page{background: #F2F2F2;}
+.commodity{width: 100%;height: auto;overflow: hidden;background: #F2F2F2;margin-top: 10px;}
+.commoditylist{width: 48%;height: auto;float: left;margin-left: 1.4%;font-size: 14px;
+margin-bottom: 10px;border-bottom: 2px solid #F2F2F2;padding-bottom: 10px;background: #fff;}
+.commoditylist image{width: 100%;height: 160px;}
+#particulars_tell{background: pink;text-align: left;padding-left: 0;display: inline-flex;line-height: 1.5555555600000004}
+.joinlist_img{width: 69px;height: 69px;margin-top: 5px;margin-left: 2px;}
+.commodity_top{font-size: 18px;background: #18C08F;line-height: 40px;color: #fff;text-align: center;}
+.defaulttel{line-height: 20px;margin-top: 20px;}
+.product_img{width: 41px;height: 41px;margin-top: 6px;margin-bottom: 6px;}
+.goumai{background: #3385ff;border-radius: 6px;font-size: 14px;padding: 4px;color: #fff;
+margin-right: 3%;}
+.price{color: red;line-height: 20px;margin-left: 3px;}
+.commoditylist text{color: #000;font-size: 16px;margin: 10px 0 10px 3px;
+overflow : hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+}

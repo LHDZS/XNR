@@ -1,0 +1,15 @@
+<!--pages/huodong/huodong.wxml-->
+<view class="about_header">最新活动</view>
+<!--  -->
+<view wx:for="{{list}}" class="about_cen">
+  <view class="about_huo">
+    <navigator url="/pages/huodongxq/huodongxq?Projectid={{item.id}}" hover-class="navigator-hover">
+      <image class="product_img" mode="widthFix" style="height:100%;" src="https://yg.xiaoniren.cn{{item.image}}"></image>
+      <view class="product_te">{{item.name}}</view>
+      <view class="fr">{{item.release_time}}</view>
+    </navigator>  
+  </view>
+</view>
+
+
+

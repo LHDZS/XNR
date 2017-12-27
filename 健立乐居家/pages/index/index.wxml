@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class='body'>
+<view class='ty_head'>
+  <view class='ty_hd_tit'>
+    <view class='name'>健丽乐居家健康生活馆</view>
+     <view class='ty_tit_msg'>健康生活馆，健康心体验</view> 
+</view>
+<!-- <view class='ty_logo'></view> -->
+</view>
+  <view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active"  bindtap="openMap">
+      <view class='iconfont icon-weizhi'></view>
+      <view class="weui-cell__bd ">北京市昌平区马池口镇百泉花园624号</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='calling'>
+      <view class='iconfont icon-dianhua'></view>
+      <view class="weui-cell__bd">联系电话：13521991978</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+<!-- <view class='mt m1'>门店视频</view> -->
+<!-- <view hidden="{{activeIndex != 0}}"> 
+  
+</view> 
+<view hidden="{{activeIndex != 1}}">
+  
+</view>  -->
+<view class='mt'>门店详情</view>
+<view class="weui-tab">
+  <view class="weui-navbar">
+    <block wx:for="{{tabs}}" wx:key="*this">
+      <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+        <view class="weui-navbar__title">{{item}}</view>
+      </view>
+    </block>
+    <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+  </view>
+  <view class="weui-tab__panel">
+    <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+          <video class='shipin' src="https://www.xiaoniren.cn/statics/lejujia/video/a.mp4" autoplay='true'></video> 
+          <video class='shipin' src="https://www.xiaoniren.cn/statics/lejujia/video/b.mp4"></video> 
+
+           <view wx:for="{{imglist}}" wx:for-item="image" wx:key="index" wx:if="{{index <= 0}}">
+          <image class='xdqimg1' src='{{image}}' data-src="{{image}}" bindtap="previewImage"></image>
+          </view>  
+          <view wx:for="{{imglist}}" wx:for-item="image" wx:key="index" wx:if="{{index > 0}}">
+          <image class='xdqimg' src='{{image}}' data-src="{{image}}" bindtap="previewImage"></image>
+          </view> 
+    </view>
+    <view class="weui-tab__content"  hidden="{{activeIndex != 1}}">
+        <video class='shipin' src='https://www.xiaoniren.cn/statics/lejujia/video/d5d47b9b97ed1d5e3794fd54ef2711ec.mp4'></video>
+        <view wx:for="{{imgslist}}" wx:for-item="images" wx:key="index" wx:if="{{index<12}}">
+        <image class='timg' src='{{images}}' data-src="{{images}}" bindtap="previewImages"></image> 
+        </view>
+        <view wx:for="{{imgslist}}" wx:for-item="images" wx:key="index" wx:if="{{index>=12}}">
+        <image class='timg1' src='{{images}}' data-src="{{images}}" bindtap="previewImages"></image> 
+        </view>
+    </view>
+    <view class="weui-tab__content"  hidden="{{activeIndex != 2}}">
+        <video class='shipin' src='https://www.xiaoniren.cn/statics/lejujia/video/25a5cab5a037e2653ccd8e59db0a523e.mp4'></video>
+        <view wx:for="{{imgxlist}}" wx:for-item="imagex" wx:key="index">
+        <image class='xue' src='{{imagex}}' data-src="{{imagex}}" bindtap="previewImagex"></image>
+        </view>
+        <image class='xue' src='https://www.xiaoniren.cn/statics/lejujia/image/1337293003872614865.jpg'></image>
+    </view>
+  </view>
+</view>
+ <view bindtap="xiaoniren" type="default" class="xiaoniren">小泥人技术支持</view>
+</view>

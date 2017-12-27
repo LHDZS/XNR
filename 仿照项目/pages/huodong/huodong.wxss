@@ -1,0 +1,10 @@
+/* pages/huodong/huodong.wxss */
+.about_header{width: 100%;height: auto;line-height: 40px;text-align: center;font-size: 18px;
+background: #339966;color: #fff;}
+.product_img{width: 100%;}
+.product_te{width: 98%;margin: 0 auto;font-size: 16px;color: #555;}
+.fr{margin-right: 10px;font-size: 16px;color: #555;}
+.about_cen{border-bottom:10px solid #f2f2f2;width: 100%;height: auto;overflow: hidden;padding-bottom: 10px;margin-top: 10px;}
+.about_huo{width: 96%;height: auto;margin: 0 auto;}
+
+

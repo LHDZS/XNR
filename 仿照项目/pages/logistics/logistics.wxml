@@ -1,0 +1,8 @@
+<!--pages/logistics//logistics.wxml-->
+<view class="logis">
+  <view class="logis_lis">物流公司：{{kuaidi.express}}</view>
+  <view class="logis_lis">运单号码：{{kuaidi.LogisticCode}}</view>
+  <view class="xian"></view>
+  <view class="logis_lis xian" wx:for="{{kuaidi.Traces}}"><view class="dizhi">{{item.AcceptStation}}\n</view>{{item.AcceptTime}}</view>
+  <view class="logis_btn {{status==3?'hi_de':'bl_ocl'}}" bindtap="queren">确认收货</view>
+</view>

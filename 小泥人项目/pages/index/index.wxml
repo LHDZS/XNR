@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<!--video  -->
+<view class="">
+  <video id="myVideo" src="http://www.xiaoniren.cn/mp4/yegu.mp4"  autoplay="true"></video>
+</view>
+<!--  -->
+<view class="join">
+  <view class="joinlist">
+    <navigator style="height:80px;" class="" url="/pages/about/about" hover-class="navigator-hover">     
+      <image class="joinlist_img fl" mode="scaleToFill" src="/image/gs.png"></image>      
+      <view>关于公司</view>
+    </navigator>
+  </view>
+  <view class="joinlist">
+    <navigator style="height:80px;" class="" url="/pages/vr/vr" hover-class="navigator-hover">     
+      <image class="joinlist_img fl" mode="scaleToFill" src="/image/vr.png"></image>      
+      <view>成功案例</view>
+    </navigator>
+  </view>
+  <view class="joinlist">
+      <image class="joinlist_img fl" mode="scaleToFill" src="/image/ja.png"></image> 
+      <view class="defaulttel" type="default" bindtap="calling">加盟热线</view>
+  </view>
+</view>
+<!--  -->
+<view class="product">
+  <view class="productlist">
+    <navigator class="" url="/pages/chanpin/chanpin" hover-class="navigator-hover"> 
+      <image class="product_img" mode="scaleToFill" src="/image/cp.png"></image>         
+      <view>产品与服务</view>
+    </navigator>
+  </view>
+  <view class="productlist">
+    <navigator class="" url="/pages/huodong/huodong" hover-class="navigator-hover">
+      <image class="product_img" mode="scaleToFill" src="/image/hd.png"></image>          
+      <view>解决方案</view>
+    </navigator>
+  </view>
+  <view class="productlist">
+    <navigator class="" url="/pages/dongtai/dongtai" hover-class="navigator-hover"> 
+      <image class="product_img" mode="scaleToFill" src="/image/qs.png"></image>         
+      <view>公司动态</view>
+    </navigator>
+  </view>
+  <view class="productlist">
+    <navigator class="" url="/pages/commodity/commodity" hover-class="navigator-hover">  
+      <image class="product_img" mode="scaleToFill" src="/image/sp.png"></image>        
+      <view>所有商品</view>
+    </navigator>
+  </view>
+</view>
+<!--  -->
+<view class="commodity">
+  <view class="commodity_top"><text>所有商品</text></view>
+    <view wx:if="{{index<4}}" wx:for="{{list}}" class="commoditylist">
+      <navigator  url="/pages/product/product?Projectid={{item.id}}" hover-class="navigator-hover">
+        <image class="second-img" style="height:154px;" src="https://yg.xiaoniren.cn{{item.image}}"></image>          
+        <text>{{item.name}}\n</text>
+        <view class="fl price">¥ {{item.price}}</view><view class="fr goumai">立即购买</view>
+      </navigator>
+    </view>    
+</view>
+
+<view bindtap="xiaoniren" type="default" class="xiaoniren">小泥人技术支持</view> 

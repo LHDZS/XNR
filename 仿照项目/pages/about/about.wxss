@@ -1,0 +1,10 @@
+/* pages/about/about.wxss */
+.about_header{width: 100%;height: auto;line-height: 40px;text-align: center;font-size: 18px;
+background: #339966;color: #fff;}
+#myVideo{width: 100%;}
+.myideo{font-size: 14px;padding-right: 10px;color: #555}
+.course{width: 96%;height: auto;overflow: hidden;margin: 0 auto;margin-top: 10px;}
+.courselist text{background: #3385ff;color: #fff;padding: 6px 10px 6px 10px;line-height: 30px;
+font-size: 16px;}
+.courselist view{font-size: 14px;line-height: 30px;text-indent: 26px;color: #555;}
+.hezuo-img{width:134px;height: 86px;margin-top: 10px;margin-right: 10px;}
